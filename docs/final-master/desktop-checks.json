@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "Signup and local email confirmation through actual form",
+    "Sign-in, verified session, empty dashboard",
+    "Create fields, due-today schedule, persistence after refresh, real statistics",
+    "Completion and reopening update persistent tasks and progress",
+    "Edit, status filter, priority filter, due-date sort",
+    "Safe delete cancellation and confirmed deletion in isolated test database",
+    "Workspace width 360 no overflow",
+    "Workspace width 390 no overflow",
+    "Workspace width 768 no overflow",
+    "Workspace width 1024 no overflow",
+    "Workspace width 1440 no overflow",
+    "Desktop sidebar collapse and expansion",
+    "Real logout and protected-route redirect"
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "axeViolations": [],
+  "isolatedDatabase": true
+}

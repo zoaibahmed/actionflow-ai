@@ -1,0 +1,19 @@
+{
+  "environment": "Headless Chromium 390x844, local Next development server; diagnostic samples, not a production score",
+  "measurements": [
+    {
+      "cpuThrottle": 1,
+      "samples": 121,
+      "medianFrameMs": 16.7,
+      "p95FrameMs": 32,
+      "framesOver33ms": 4
+    },
+    {
+      "cpuThrottle": 4,
+      "samples": 37,
+      "medianFrameMs": 50,
+      "p95FrameMs": 333.3,
+      "framesOver33ms": 23
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+[Unit]
+Description=ActionFlow web application
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=120
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=actionflow
+Group=actionflow
+WorkingDirectory=/opt/actionflow/current
+Environment=NODE_ENV=production
+EnvironmentFile=/etc/actionflow/actionflow.env
+ExecStart=/usr/bin/node node_modules/next/dist/bin/next start --hostname 127.0.0.1 --port 3000
+Restart=on-failure
+RestartSec=10
+KillSignal=SIGTERM
+TimeoutStopSec=90
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/actionflow/current/.next/cache /var/lib/actionflow
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=actionflow-app
+MemoryAccounting=true
+TasksMax=256
+
+[Install]
+WantedBy=multi-user.target

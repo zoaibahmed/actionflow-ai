@@ -1,0 +1,9 @@
+{
+  "syntheticData": true,
+  "databaseWrites": 0,
+  "model": "gpt-4.1-mini",
+  "validated": true,
+  "scheduledBlocks": 2,
+  "unscheduled": 1,
+  "focusMinutes": 60
+}

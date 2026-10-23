@@ -1,0 +1,30 @@
+{
+  "developmentOutput": ".next-development",
+  "workspaceBrowserChecks": 32,
+  "phaseComplete": false,
+  "additionalTaskRepositoryRun": 1,
+  "authFlowTests": 1,
+  "unitTests": 21,
+  "sampledAxeViolations": 0,
+  "publicBrowserChecks": 18,
+  "normalPreview": "http://localhost:3000",
+  "lint": "passed",
+  "dependenciesAdded": 0,
+  "reminderIntegrationTests": 3,
+  "productionOutput": ".next",
+  "mockedAiSuites": 2,
+  "taskCapturePlannerDatabaseTests": 3,
+  "typeScript": "passed",
+  "productionBuild": "passed - 23 pages",
+  "remaining": [
+    "Agent",
+    "SMTP/OTP/Google",
+    "Notes/Focus/Search/Insights",
+    "VPS preparation",
+    "Final performance/security/system audit"
+  ],
+  "databaseMigrationsAdded": 0,
+  "checkpoint": "C",
+  "nextCheckpoint": "D - AI Workspace Agent",
+  "pageExceptions": 0
+}

@@ -1,0 +1,26 @@
+{
+  "checks": [
+    "Stroke logo, masked wordmark and line-reveal headline animations",
+    "One persistent hero-to-story subject transforms across all three stages",
+    "Optional subtle pointer perspective",
+    "Static reduced-motion identity and simplified scene remain readable"
+  ],
+  "errors": [],
+  "animations": {
+    "logo": "flow-mark-draw",
+    "wordmark": "flow-word-reveal",
+    "headline": "headline-arrive"
+  },
+  "performance": {
+    "environment": "Production build, local headless Chromium, synthetic 4x CPU slowdown; not physical mid-range hardware",
+    "frames": 120,
+    "meanFrameMs": 19.436666666666664,
+    "p95FrameMs": 34.59999999999991,
+    "framesOver33ms": 13
+  },
+  "reduced": {
+    "logo": "none",
+    "headline": "none",
+    "scene": "none"
+  }
+}

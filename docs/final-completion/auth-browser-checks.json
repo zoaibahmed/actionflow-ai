@@ -1,0 +1,28 @@
+{
+  "checkpoint": "E",
+  "date": "2026-10-21",
+  "browser": "CUA actual isolated application",
+  "emailTests": "private file mail; one separately authorized real Gmail connection-check was accepted and receipt confirmed by user",
+  "checks": [
+    "Registration OTP screen and successful verification",
+    "Password accepted, then real second-factor challenge",
+    "Automatic second-factor code request from server action",
+    "OTP completes sign-in and opens real dashboard",
+    "Session persists after reload",
+    "Google linking setup state in authenticated Settings",
+    "Real sign-out returns to login",
+    "Invalid reset link explains expiry and offers recovery",
+    "No horizontal overflow across login/signup/forgot/reset/OTP at 390,768,1024,1440",
+    "OTP focus and single-field paste support inspected",
+    "No browser console errors/warnings during the checked flow"
+  ],
+  "limitations": [
+    "Live Google requires client credentials",
+    "Real-device/Safari and system reduced-motion emulation not performed",
+    "Real OTP/recovery inbox receipt not manually tested; automated flows use file mail"
+  ],
+  "screenshots": [
+    "screenshots/auth-otp-desktop.png",
+    "screenshots/auth-otp-mobile.png"
+  ]
+}

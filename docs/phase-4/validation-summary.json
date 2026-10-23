@@ -1,0 +1,74 @@
+{
+  "phase": 4,
+  "lint": "passed",
+  "productionBuild": "passed",
+  "prerenderedRoutes": 18,
+  "unitTests": {
+    "passed": 14
+  },
+  "mockedSDKTests": {
+    "passed": 2
+  },
+  "mongoIntegrationSuites": {
+    "passed": 3,
+    "isolatedReplicaSet": true
+  },
+  "authIntegrationSuites": {
+    "passed": 1
+  },
+  "browser": [
+    {
+      "file": "browser-checks.json",
+      "count": 26,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "file": "workspace-checks.json",
+      "count": 17,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "file": "public-checks.json",
+      "count": 28,
+      "errors": [],
+      "consoleErrors": []
+    },
+    {
+      "file": "capture-browser.json",
+      "count": 26,
+      "errors": [],
+      "consoleErrors": []
+    }
+  ],
+  "browserTotal": 97,
+  "accessibility": {
+    "plannerReview": 0,
+    "capture": [
+      {
+        "state": "capture",
+        "violations": 0
+      },
+      {
+        "state": "review",
+        "violations": 0
+      }
+    ],
+    "taskWorkspace": 0
+  },
+  "realAISmoke": {
+    "syntheticData": true,
+    "databaseWrites": 0,
+    "model": "gpt-4.1-mini",
+    "validated": true,
+    "scheduledBlocks": 2,
+    "unscheduled": 1,
+    "focusMinutes": 60
+  },
+  "clientSecretScan": {
+    "files": 26,
+    "leaks": 0
+  },
+  "newApplicationDependencies": []
+}

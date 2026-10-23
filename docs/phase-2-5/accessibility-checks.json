@@ -1,0 +1,14 @@
+[
+  {
+    "route": "/",
+    "violations": []
+  },
+  {
+    "route": "/signup",
+    "violations": []
+  },
+  {
+    "route": "/login",
+    "violations": []
+  }
+]

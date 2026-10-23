@@ -1,0 +1,101 @@
+{
+  "phase": 5,
+  "lint": "passed",
+  "productionBuild": "passed",
+  "generatedPages": 23,
+  "unitTests": 21,
+  "mockedSDKTests": 2,
+  "reminderMongoIntegrationTests": 3,
+  "existingTaskCapturePlannerIntegrationTests": 3,
+  "authIntegrationTests": 1,
+  "browser": [
+    {
+      "file": "reminder-browser.json",
+      "checks": 25,
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "file": "workspace-checks.json",
+      "checks": 17,
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "file": "public-checks.json",
+      "checks": 28,
+      "pageErrors": [],
+      "consoleErrors": null
+    },
+    {
+      "file": "capture-browser.json",
+      "checks": 26,
+      "pageErrors": [],
+      "consoleErrors": []
+    },
+    {
+      "file": "planner-run.json",
+      "checks": 26,
+      "pageErrors": [],
+      "consoleErrors": null
+    }
+  ],
+  "browserTotal": 122,
+  "accessibility": {
+    "reminders": [
+      {
+        "state": "notifications",
+        "violations": 0
+      },
+      {
+        "state": "settings",
+        "violations": 0
+      }
+    ],
+    "capture": [
+      {
+        "state": "capture",
+        "violations": 0
+      },
+      {
+        "state": "review",
+        "violations": 0
+      }
+    ],
+    "planner": [
+      {
+        "state": "review",
+        "rules": []
+      }
+    ]
+  },
+  "realDelivery": {
+    "inAppBrowserClosed": "verified using actual HTTP processor and isolated MongoDB",
+    "email": "SMTP unconfigured; inbox delivery unverified",
+    "push": {
+      "permission": "granted in controlled browser",
+      "blocked": "AbortError: Registration failed - permission denied",
+      "realDeliveryTested": false
+    }
+  },
+  "clientSecretScan": {
+    "filesChecked": 26,
+    "leaks": 0
+  },
+  "runtimeDependencyAudit": {
+    "vulnerabilities": 0
+  },
+  "migration": "004 applied additively to configured ActionFlow database",
+  "local": {
+    "appPort": 3000,
+    "processor": "running",
+    "loginHTTP": 200,
+    "workerWithoutTokenHTTP": 401,
+    "notificationIconHTTP": 200
+  },
+  "productionScheduler": "not deployed; managed-worker and secured POST configuration documented",
+  "dependenciesAdded": [
+    "web-push",
+    "@types/web-push (development)"
+  ]
+}

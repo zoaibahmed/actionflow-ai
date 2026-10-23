@@ -1,0 +1,5 @@
+{
+  "permission": "granted in controlled browser",
+  "blocked": "AbortError: Registration failed - permission denied",
+  "realDeliveryTested": false
+}

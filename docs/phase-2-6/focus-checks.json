@@ -1,0 +1,13 @@
+{
+  "isolatedDatabase": true,
+  "checks": [
+    "Signup and local email confirmation through actual form",
+    "Sign-in, verified session, empty dashboard",
+    "Priority-selected focus, due-today agenda, tomorrow-midnight inclusion in upcoming",
+    "Focus completion persists and promotes next actual task",
+    "Editor retains input after network failure and retries successfully",
+    "All-complete state displays actual complete progress"
+  ],
+  "errors": [],
+  "consoleErrors": []
+}

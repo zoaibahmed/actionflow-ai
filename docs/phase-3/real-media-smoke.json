@@ -1,0 +1,20 @@
+{
+  "syntheticSources": true,
+  "noDatabaseWrites": true,
+  "results": [
+    {
+      "source": "image",
+      "ok": true,
+      "actions": 1,
+      "hasDueDate": true,
+      "hasDueTime": true
+    },
+    {
+      "source": "pdf",
+      "ok": true,
+      "actions": 1,
+      "hasDueDate": true,
+      "hasDueTime": true
+    }
+  ]
+}

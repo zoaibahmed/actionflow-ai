@@ -1,0 +1,150 @@
+{
+  "results": [
+    {
+      "width": 360,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/signup",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/login",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/forgot-password",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "route": "/reset-password",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/signup",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/login",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/forgot-password",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "route": "/reset-password",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/signup",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/login",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/forgot-password",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/reset-password",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/signup",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/login",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/forgot-password",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "route": "/reset-password",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/signup",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/login",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/forgot-password",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/reset-password",
+      "overflow": false
+    },
+    {
+      "scrollStory": {
+        "stage3": true,
+        "transformsDiffer": true
+      }
+    },
+    {
+      "mobileMenu": "opens and closes with Escape"
+    },
+    {
+      "reducedMotion": {
+        "opacity": "1",
+        "animation": "none"
+      }
+    }
+  ],
+  "errors": [],
+  "developmentNavigation": {
+    "responseMs": 308,
+    "domContentLoadedMs": 443,
+    "resourceCount": 25
+  }
+}

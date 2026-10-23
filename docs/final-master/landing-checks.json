@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "sequence": ".atlas-opening",
+      "transformChanges": true
+    },
+    {
+      "sequence": ".atlas-day-story",
+      "transformChanges": true
+    },
+    {
+      "sequence": ".atlas-capture-story",
+      "transformChanges": true
+    },
+    {
+      "mobileMenu": "keyboard open/escape passed"
+    },
+    {
+      "reducedMotion": "heading animation disabled"
+    }
+  ],
+  "errors": [],
+  "axeViolations": []
+}

@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "Authenticated Dayflow loads real unfinished tasks",
+    "Empty planner responsive 390",
+    "Empty planner responsive 768",
+    "Empty planner responsive 1024",
+    "Empty planner responsive 1440",
+    "Timezone, breaks and preferences persist",
+    "SDK-backed analysis shows honest pending state; proposal never auto-saves",
+    "Editing and keyboard-accessible move controls validate overlapping or invalid times",
+    "Editable planner responsive 390",
+    "Editable planner responsive 768",
+    "Editable planner responsive 1024",
+    "Editable planner responsive 1440",
+    "Explicit approval, UTC timestamp persistence and idempotent HTTP replay",
+    "Saved schedule reopens after refresh with edits and version",
+    "Outdated schedule version rejected",
+    "Removing a block keeps the real task and saves a revised plan",
+    "Date selection, task estimates, manual placement, commitments and move-to-resolve conflicts persist",
+    "Recoverable provider invalid with no silent save",
+    "Recoverable provider quota with no silent save",
+    "Recoverable provider timeout with no silent save",
+    "Recoverable provider empty with no silent save",
+    "Planner HTTP authentication, origin and task ownership enforced",
+    "Reduced-motion saved schedule remains editable",
+    "Reopened schedules review fresh task versions and can be approved after task edits",
+    "Completed tasks are recoverable from saved schedules without modifying task status",
+    "Session expiry preserves schedule draft without granting server access"
+  ],
+  "errors": [],
+  "consoleErrors": []
+}

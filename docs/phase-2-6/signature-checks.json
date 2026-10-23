@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "Hero example, tabs and completion at 390",
+    "Continuous transforms at three stages at 390",
+    "Section-aware navbar indicator at 390",
+    "Hero example, tabs and completion at 768",
+    "Continuous transforms at three stages at 768",
+    "Section-aware navbar indicator at 768",
+    "Hero example, tabs and completion at 1024",
+    "Continuous transforms at three stages at 1024",
+    "Section-aware navbar indicator at 1024",
+    "Hero example, tabs and completion at 1440",
+    "Continuous transforms at three stages at 1440",
+    "Section-aware navbar indicator at 1440",
+    "Reduced motion static planner, readable stage explanations"
+  ],
+  "errors": []
+}

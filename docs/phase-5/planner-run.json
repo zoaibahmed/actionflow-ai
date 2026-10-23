@@ -1,0 +1,12 @@
+{
+  "checks": 26,
+  "errors": [],
+  "accessibility": [
+    {
+      "state": "review",
+      "rules": []
+    }
+  ],
+  "source": "Final planner5-browser.cjs runner completion, observed in this phase",
+  "paidCallsMocked": true
+}

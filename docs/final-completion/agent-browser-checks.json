@@ -1,0 +1,28 @@
+{
+  "method": "CUA actual rendered browser inspection; qualitative checks and DOM geometry",
+  "isolatedDatabase": true,
+  "paidProviderCalls": "mocked",
+  "checks": [
+    "Signed in with real Better Auth session against isolated application",
+    "Suggested prompt populates composer",
+    "Real endpoint creates held task proposal without task insertion",
+    "Edited title produces revision 2 and invalidates previous approval",
+    "Explicit approval returns committed receipt",
+    "Receipt opens persisted owned task after navigation",
+    "Cancelled proposal leaves task count unchanged",
+    "Recent conversation resumes correct messages and receipt",
+    "New conversation focuses composer",
+    "Real task lookup returns trusted persisted task link",
+    "Global header opens assistant",
+    "Conversation deletion dialog initially focuses Keep; Escape restores opener",
+    "Secret-like synthetic input rejected with recoverable error and preserved composer",
+    "No horizontal overflow at 320, 390, 768, 1024, 1440",
+    "Fresh assistant render has no console errors or warnings"
+  ],
+  "reducedMotion": "shared Motion provider/CSS inspected; browser preference emulation not available",
+  "screenshots": [
+    "screenshots/agent-desktop.png",
+    "screenshots/agent-mobile.png",
+    "screenshots/agent-mobile-review.png"
+  ]
+}
